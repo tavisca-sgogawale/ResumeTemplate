@@ -1,0 +1,170 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   width: 1024px;
+}
+.header-content{
+    background-color: gray;
+    padding: 2%;
+ }
+
+ .whitespace{
+    background-color: white;
+    padding: 2%;
+    width: 50%;
+    margin: 0 auto;
+ }
+ .headerdata{
+    border: 2px solid black;
+    padding: 2%;
+    width: 97%;
+ }
+
+ #name{
+    letter-spacing: 0.3em;
+     font-weight: bold;
+     text-align: center;
+ }
+#designation{
+    font-style: italic;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+}
+
+.profilebox , 
+.contactbox{
+    flex: 1;
+}
+.imagebox{
+    flex: 1;
+    padding: 1%;
+}
+.address,
+.mail,
+.website,
+.mob{
+    float: right;
+}
+
+.careercontent{
+    display: flex;
+}
+
+.education , 
+.skills , 
+.expertise{
+    flex: 4;
+    padding: 5%;
+}
+.education li{
+
+    padding-left: 0.28571429em;
+    text-indent: -1.28571429em;
+    
+}
+#educationhead,
+#expertisehead,
+#skillshead{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.dispcontent{
+    height: 40px;
+    position: relative;
+    padding-top: 4%;
+  
+    display: flex;
+    width: 100%;
+
+}
+
+.education1 , 
+.expertise1{
+    flex: 3;
+    
+    border: 2px solid black;
+    text-align: center; 
+    
+}
+.skills1 {
+    flex: 3;
+    border: 2px solid  burlywood;
+    background-color: burlywood;
+    text-align: center; 
+    
+}
+
+.experiencehead{
+    height: 40px;
+    display: flex;
+    }
+#experiencehead{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.line2 ,  
+.line1{
+    flex:0.5;
+   
+    
+}
+
+.line3 ,  
+.line4{
+    flex:1;
+   
+    
+}
+
+.experience{
+    flex: 2;
+    border: 2px solid  burlywood;
+    background-color: burlywood;
+    text-align: center; 
+}
+
+.experiencecontent{
+
+    padding: 2%;
+    display: flex;
+    
+
+}
+
+.designation
+{
+    padding: 2%;
+    flex:8;
+ 
+    
+}
+.location{
+    padding: 2%;
+    flex:1;
+    text-align: center; 
+    background-color:burlywood;
+    border: 2px solid black;
+    
+}
+footer{
+    
+        background-color: burlywood;
+        list-style-type:none;
+        border: 1px solid burlywood;
+        height: 20px;
+     
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
